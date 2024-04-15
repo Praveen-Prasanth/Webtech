@@ -1,0 +1,28 @@
+p{
+    color:brown;
+    font-size: medium;
+    font-family: cursive;
+    font-weight: bold;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: burlywood;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+h1{
+    color: rgb(54, 69, 79);
+}
+
+h4{
+    color: rgb(0, 51, 102);
+    text-decoration-line: underline;
+    text-shadow: #f2f2f2;
+}
