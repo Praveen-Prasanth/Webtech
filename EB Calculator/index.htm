@@ -1,0 +1,29 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EB Bill Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>EB Bill Calculator</h1>
+        <form action="" id="form" >
+            <label for="tariff">Tariff </label>
+            <select name="tariff" id="tariff"  required>
+                <option>Tariff type</option>
+                <option>Domestic</option>
+                <option>Commercial</option>
+            </select><br>
+            <label for="consumerNo">Consumer Number</label>
+            <input type="number" name="consumerNo" id="consumerNo" required /> <br/>
+            <label for="consumedUnit">Consumed Units</label>
+            <input type="number" name="consumedUnit" id="consumedUnit" required /> <br />
+            <button type="submit" onclick="calculate()">Calculate</button>
+            <hr/>
+            <div id="res"></div>
+        </form>
+        <script src="index.js"></script>
+    </div>
+</body>
+</html>
