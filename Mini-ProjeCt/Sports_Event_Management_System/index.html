@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports Event Management System</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Sports Event Management System</h1>
+
+    <!-- Form for adding a new sports event -->
+    <div class="form-container">
+      <h2>Add New Event</h2>
+      <form id="event-form">
+        <label for="event-name">Event Name:</label>
+        <input type="text" id="event-name" required>
+
+        <label for="event-date">Event Date:</label>
+        <input type="date" id="event-date" required>
+
+        <label for="event-location">Location:</label>
+        <input type="text" id="event-location" required>
+
+        <label for="participant-name">Participant Name:</label>
+        <input type="text" id="participant-name">
+
+        <label for="participant-age">Participant Age:</label>
+        <input type="number" id="participant-age">
+
+        <label for="sport-type">Sport Type:</label>
+        <select id="sport-type" required>
+          <option value="">Select Sport Type</option>
+          <option value="football">Football</option>
+          <option value="basketball">Basketball</option>
+          <option value="cricket">Cricket</option>
+          <option value="baseball">Baseball</option>
+          <option value="tennis">Tennis</option>
+          <option value="badminton">Badminton</option>
+          <option value="rugby">Rugby</option>
+          <option value="hockey">Hockey</option>
+          <option value="table-tennis">Table Tennis</option>
+          <option value="volleyball">Volleyball</option>
+          <option value="golf">Golf</option>
+          <option value="swimming">Swimming</option>
+          <option value="athletics">Athletics</option>
+          <option value="gymnastics">Gymnastics</option>
+        </select>
+
+        <button type="submit">Add Event</button>
+      </form>
+      <button id="update-button">Update Event</button>
+    </div>
+
+    <!-- Events List -->
+    <div class="events-container">
+      <h2>Upcoming Events</h2>
+      <ul class="events-list" id="events-list"></ul>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>

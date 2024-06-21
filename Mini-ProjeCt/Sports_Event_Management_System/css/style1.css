@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('/assets/image.jpg') no-repeat center center fixed;
+    /* background: linear-gradient(to right, #cb9595, #ffd700, #ff8c00); */
+    background-size: cover;
+    color: #333;
+  }
+  
+  
+
+.card {
+    overflow: hidden;
+    border: 0 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2); /* Darker shadow */
+}
+
+.img-left {
+    width: 45%;
+    background: url('img.jpg') center;
+    background-size: cover;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.title {
+    margin-bottom: 2rem;
+}
+
+.form-input {
+    position: relative;
+}
+
+.form-input input {
+    width: 100%;
+    height: 45px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    box-shadow: none;
+    border: 1px solid #636e72; /* Updated border color */
+    border-radius: 50px;
+    outline: none;
+    background: transparent;
+}
+
+.form-input span {
+    position: absolute;
+    top: 10px;
+    padding-left: 15px;
+    color: #fd79a8; /* Updated color */
+}
+
+.form-input input::placeholder {
+    color: #2d3436; /* Unchanged placeholder color */
+}
+
+.form-input input:focus,
+.form-input input:valid {
+    border: 2px solid #fd79a8; /* Updated border color */
+}
+
+.form-input input:focus::placeholder {
+    color: #636e72; /* Unchanged focus placeholder color */
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #fd79a8 !important; /* Updated checkbox color */
+    border: none; /* Unchanged border */
+}
+
+.form-box button[type="submit"] {
+    margin-top: 10px;
+    border:none;cursor:pointer;border-radius50px;background:#fd79a8;color:#fff;font-size90%;font-weight:bold;letter-spacing:.1rem;transition0.5s;padding12px;}
+
+.form-box button[type="submit"]:hover{background:#e84393;} /* Updated hover background */
+
+.forget-link,.register-link{color:#fd79a8;font-weight:bold;} /* Updated link colors */
+
+.forget-link:hover,.register-link:hover{color:#e84393;text-decoration:none;} /* Updated hover link colors */
+
+.form-box .btn-social{color:white!important;border0;font-weight:bold;} /* Unchanged social button styles */
+
+.form-box .btn-facebook{background:#8c7ae6;} /* Updated Facebook button background */
+
+.form-box .btn-google{background:#eb2f06;} /* Updated Google button background */
+
+.form-box .btn-twitter{background:#00a8ff;} /* Updated Twitter button background */
+
+.form-box .btn-facebook:hover{background:#9c88ff;} /* Updated Facebook hover background */
+
+.form-box .btn-google:hover{background:#e84118;} /* Updated Google hover background */
+
+.form-box .btn-twitter:hover{background:#0097e6;} /* Updated Twitter hover background */

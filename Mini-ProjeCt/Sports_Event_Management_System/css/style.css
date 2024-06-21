@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, rgba(255, 159, 67, 1), rgba(255, 107, 129, 1), rgba(72, 52, 212, 1));
+  background-size: cover;
+  color: #2f3640;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.totals {
+  text-align: center;
+}
+
+.totals p {
+}
+
+.form-container {
+  padding: 20px;
+  border: 1px solid #fd79a8;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.97);
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #fd79a8;
+  border-radius: 4px;
+}
+
+form button,
+#update-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #fd79a8;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+form button:hover,
+#update-button:hover {
+  background-color: #e84393;
+}
+
+.transactions-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  width: 48%;
+  padding: 20px;
+  border: 1px solid #fd79a8;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.97);
+}
+
+.transactions {
+  list-style-type: none;
+  padding: 0;
+}
+
+.transactions li {
+  padding: 10px;
+  border-bottom: 1px solid #fd79a8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.transactions li button {
+  background-color: #fd79a8;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 5px 10px;
